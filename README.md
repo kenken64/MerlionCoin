@@ -45,3 +45,28 @@ Bitcoin sets the rate to new block approximately around every 10 minutes.
 Dynamic Block adjust difficulty
 * lastBlock timestamp + mine rate > currentTime then we know is too easy increase difficulty
  +1 else -1
+
+ ## Wallets, Keys and transaction
+
+ ### What is a wallet?
+ * Have a balance field
+ * Store keys (Private Keys and Public Keys) Everyone sees the Public Keys
+ Private Key - used to generate signatures
+ Public Key - used to verify the signatures and also public account address
+
+ ### Transactions
+ * Input of the transaction details
+ ** timestamp,balance and public key
+
+ * Output chain as transactions
+
+ ### Digital Signatures
+ * Create wallet
+ * Elliptic-curve cryptography (ECC) is an approach to public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC requires smaller keys compared to non-ECC cryptography (based on plain Galois fields) to provide equivalent security.
+ * Install npm i elliptic --save 
+
+Mid 1980s 
+
+ y^{2}=x^{3}+ax+b,\,
+
+ https://www.youtube.com/watch?v=dCvB-mhkT0w
