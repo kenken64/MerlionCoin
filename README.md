@@ -1,21 +1,27 @@
 ## The Merlion Stable Coin
 
+```
 npm i nodemon --save-dev
 npm i jest --save-dev
+```
 
 Runtime libraries
-
+```
 npm i crypto-js --save
 npm i express --save
-
+```
 ## Node 1
+```
 npm run dev
-
+```
 ## Node 2
+```
 HTTP_PORT=3002 P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev
-
+```
 ## Node 3
+```
 HTTP_PORT=3003 P2P_PORT=5003 PEERS=ws://localhost:5001,ws://localhost:5002 npm run dev
+```
 
 ## Proof of work
 (PoW) system (or protocol, or function) is an economic measure to deter denial of service attacks and other service abuses such as spam on a network by requiring some work from the service requester, usually meaning processing time by a computer.
